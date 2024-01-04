@@ -14,6 +14,7 @@ spring:
        discovery:
          cluster-name: HZ # 集群名称
          namespace: 2279dc89-b805-469e-8af3-f089ca6f7f6d # 命名空间
+         ephemeral: false
 
 
 
