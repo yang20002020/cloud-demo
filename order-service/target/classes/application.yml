@@ -13,6 +13,8 @@ spring:
        server-addr: localhost:8848   # nacos服务地址
        discovery:
          cluster-name: HZ # 集群名称
+         namespace: 2279dc89-b805-469e-8af3-f089ca6f7f6d # 命名空间
+
 
 
 mybatis:
@@ -24,10 +26,10 @@ logging:
     cn.itcast: debug
   pattern:
     dateformat: MM-dd HH:mm:ss:SSS
-eureka:
-  client:
-    service-url: # eureka的地址信息
-      defaultZone: http://127.0.0.1:10096/eureka
+#eureka:
+#  client:
+#    service-url: # eureka的地址信息
+#      defaultZone: http://127.0.0.1:10096/eureka
 
 
 #userservice: # 给某个微服务配置负载均衡规则，这里是userservice服务
